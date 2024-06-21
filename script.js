@@ -6,7 +6,7 @@ document.getElementById('calculator-form').addEventListener('submit', function(e
         return;
     }
 
-    const multiplyResult = (number * (4800000/(150)).toLocaleString();
+    const multiplyResult = (number * 1.3*(4800000/(150)).toLocaleString();
     const divideResult = (number / 150).toLocaleString();
 
     document.getElementById('multiply-result').textContent = `Costo aproximado del sistema $ ${multiplyResult}`;
